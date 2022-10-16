@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Crimson+Text&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 15px;
+    font-family:'Crimson Text', serif;
+}
+
+h3 {
+    font-size: 30px;
+    color:#DFF6FF;
+    font-family:'Cormorant Garamond', serif;;
+}
+
+h2{
+    font-family:'Crimson Text', serif;
+}
+
+body{
+    background-color:#256D85;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #06283D;
+    margin-bottom: 100px;
+}
+
+.logo-text a,
+.btn {
+    font-family:'Cormorant Garamond', serif;;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: #DFF6FF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color:#256D85;
+}
+
+.cards {
+    display: table;
+}
+
+.card {
+    font-family: "Candara", sans-serif;
+    width: 340px;
+    overflow: hidden;
+    background-color: #DFF6FF;
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-image img {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    border-radius: 100px;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+}
+
+.card-content h3,
+.card-content h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.background{
+    height:110px;
+    background: #DFF6FF;
+}
